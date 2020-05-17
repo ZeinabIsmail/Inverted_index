@@ -32,7 +32,7 @@ node* insert(node* root, string data,string name)
 	{
 		root = NewNode(data,name);
 	}
-	else if(data < root->data)
+	else if(data == root->data)
     {
         root->id.push(name);
     }
